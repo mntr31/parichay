@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const numbers = document.querySelectorAll('.number');
-    let currentIndex = 0;
+    let currentIndex = numbers.length - 1;  // Start from the rightmost number
 
     function animateNumbers() {
         numbers.forEach((number, index) => {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        currentIndex = (currentIndex + 1) % numbers.length;
+        currentIndex = (currentIndex - 1 + numbers.length) % numbers.length;  // Move left, wrap around to the right
     }
 
     setInterval(animateNumbers, 500);
