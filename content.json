@@ -1,0 +1,27 @@
+{
+    "name": {
+        "gu": "તમારું નામ",
+        "en": "Your Name"
+    },
+    "intro": {
+        "gu": "હું એક સોફ્ટવેર ડેવલપર છું જે વેબ ટેક્નોલોજીમાં પ્રગતિ કરી રહ્યો છું. હું નવી ટેક્નોલોજી શીખવા અને તેનો ઉપયોગ કરવામાં ઉત્સાહી છું.",
+        "en": "I am a software developer who is passionate about web technologies. I love learning and implementing new technologies."
+    },
+    "social": {
+        "linkedin": {
+            "gu": "લિંક્ડઇન",
+            "en": "LinkedIn",
+            "url": "https://linkedin.com/in/your-profile"
+        },
+        "github": {
+            "gu": "ગિટહબ",
+            "en": "GitHub",
+            "url": "https://github.com/your-username"
+        },
+        "email": {
+            "gu": "ઇમેઇલ",
+            "en": "Email",
+            "url": "mailto:your.email@example.com"
+        }
+    }
+} 
